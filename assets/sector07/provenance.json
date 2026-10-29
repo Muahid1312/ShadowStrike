@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/godotengine/tps-demo",
+  "upstream_ref_observed": "a82f15448e9b015440d3bbdf5e10801b260c4e9f",
+  "license": "CC-BY-3.0",
+  "authors": [
+    "Juan Linietsky",
+    "Fernando Miguel Calabr\u00f3"
+  ],
+  "mesh": "level/geometry/models/props.glb / prop_cargobox3.001",
+  "texture_set": "level/textures/props/mid_cargo_box_{albedo,normal,orm}.png",
+  "source_mesh_sha256": "4c94cb094c0d84df3cc7d9201d3b59188760c837668afce0446b747c2f40693e",
+  "adaptations": [
+    "Extracted cargo mesh",
+    "Normalized bottom-centered unit mesh",
+    "Resized textures to1024x1024",
+    "Repacked GLB"
+  ],
+  "apk_bytes": 92657251,
+  "apk_sha256": "d8eee10717bf7f30632924223d1f9200db685fa447e2ea6f1c5dea5ac40ee58d",
+  "map_protocol": 5,
+  "physical_android": "NOT VERIFIED"
+}

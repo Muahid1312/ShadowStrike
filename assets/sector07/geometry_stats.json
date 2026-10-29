@@ -1,0 +1,50 @@
+{
+  "HQ": {
+    "triangles": 2828,
+    "surfaces": 6
+  },
+  "Workshop": {
+    "triangles": 3268,
+    "surfaces": 6
+  },
+  "Barracks": {
+    "triangles": 2784,
+    "surfaces": 6
+  },
+  "Perimeter": {
+    "triangles": 9520,
+    "surfaces": 4
+  },
+  "Barriers": {
+    "triangles": 1828,
+    "surfaces": 2
+  },
+  "Tower": {
+    "triangles": 3572,
+    "surfaces": 4
+  },
+  "Background": {
+    "triangles": 4720,
+    "surfaces": 1
+  },
+  "Range": {
+    "triangles": 120,
+    "surfaces": 1
+  },
+  "FuelDrum": {
+    "triangles": 396,
+    "surfaces": 1
+  },
+  "Sandbag": {
+    "triangles": 44,
+    "surfaces": 1
+  },
+  "TargetFrame": {
+    "triangles": 160,
+    "surfaces": 2
+  },
+  "TargetPlate": {
+    "triangles": 98,
+    "surfaces": 3
+  }
+}

@@ -41,6 +41,9 @@ func _ready() -> void:
 		check(Lan.host_game("Host", 2 if case_name == "capacity" else 4, port), "create edge-case host")
 		mark("hosting")
 	else:
+		if role == "probe" and case_name == "old_map":
+			multiplayer.connected_to_server.disconnect(Lan._connected)
+			multiplayer.connected_to_server.connect(func(): Lan._register.rpc_id(1,"Legacy map",4))
 		app.open_lan("join")
 		app.lan_panel.name_field.text = "Probe" if role == "probe" else "Guest"
 		app.lan_panel.address_field.text = "127.0.0.1"

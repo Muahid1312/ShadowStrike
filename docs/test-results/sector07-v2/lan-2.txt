@@ -1,0 +1,50 @@
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Host / host creates lobby and registers itself
+PASS: Host / one-player match cannot start
+PASS: Host / host refuses unready roster
+PASS: Host / real lobby UI lists every connected operator
+PASS: Host / duplicate match start is rejected
+PASS: Host / load barrier activates the shared arena
+PASS: Host / one remote model per other peer, no duplicates
+PASS: Host / host assigns distinct spawn locations
+PASS: Host / local player retains first-person camera and rifle
+PASS: Host / remote avatar has no camera
+PASS: Host / server ghost has no first-person systems
+PASS: Host / host pause menu keeps LAN simulation alive
+PASS: Host / host keeps advancing match while its menu is open
+PASS: Host / host resumes local control
+PASS: Host / own operator moves independently through controller input
+PASS: Host / every other operator visibly moves through replicated transforms
+PASS: Host / remote interpolation produces intermediate motion without large position steps
+PASS: Host / authoritative jumping replicates to every observer
+PASS: Host / remote head look pitch is synchronized
+PASS: Host / host rejects oversized axes, NaN and injected position fields
+PASS: Host / capacity stays within four operators
+PASS: Host / host shutdown cleans up ENet and match
+LAN PEER RESULT: Host / 22 checks / failed=false
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / duplicate session creation is rejected
+PASS: Client1 / client receives host and own roster entry
+PASS: Client1 / client cannot start match
+PASS: Client1 / load barrier activates the shared arena
+PASS: Client1 / one remote model per other peer, no duplicates
+PASS: Client1 / host assigns distinct spawn locations
+PASS: Client1 / local player retains first-person camera and rifle
+PASS: Client1 / remote avatar has no camera
+PASS: Client1 / own operator moves independently through controller input
+PASS: Client1 / every other operator visibly moves through replicated transforms
+PASS: Client1 / remote interpolation produces intermediate motion without large position steps
+PASS: Client1 / authoritative jumping replicates to every observer
+PASS: Client1 / remote head look pitch is synchronized
+PASS: Client1 / real ENet snapshots and input batches flow
+PASS: Client1 / server acknowledgements keep prediction replay bounded
+PASS: Client1 / host departure returns client to clean menu
+LAN PEER RESULT: Client1 / 16 checks / failed=false
+
+LAN TEST RESULT: 2 real processes, 38 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-lan-rnzlpkg3

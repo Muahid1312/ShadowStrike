@@ -1,0 +1,136 @@
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Host / host creates combat lobby
+PASS: Host / host starts ready combat roster
+PASS: Host / host owns one combat record per player
+PASS: Host / LAN loadout is 30/120
+PASS: Host / initial spawn protection blocks damage
+PASS: Host / accepted fire consumes ammo and ends shooter protection
+PASS: Host / server ray body hit deals exactly 20 HP
+PASS: Host / distinct head hitbox deals exactly 40 HP
+PASS: Host / wall raycast occlusion prevents damage
+PASS: Host / client body shot is validated on host
+PASS: Host / client head shot deals authoritative 40 HP
+PASS: Host / automatic client fire eliminates host at zero HP
+PASS: Host / host maintains elimination/death statistics
+PASS: Host / eliminated host cannot fire or reload
+PASS: Host / dead hit guard rejects repeated damage
+PASS: Host / duplicate damage cannot repeat elimination stats
+PASS: Host / automatic respawn occurs after about three seconds
+PASS: Host / respawn restores HP and complete loadout
+PASS: Host / respawn increments life and starts two-second protection
+PASS: Host / spawn is separated from living operators
+PASS: Host / respawn capsule is not inside arena obstacles
+PASS: Host / post-respawn protection rejects an incoming live shot
+PASS: Host / protected player firing ends protection early
+PASS: Host / damage resumes immediately after protection ends
+PASS: Host / simultaneous touch movement/aim/fire reaches authoritative shooting
+PASS: Host / press/release in one host update retains exactly one valid shot
+PASS: Host / non-finite or out-of-range combat aim cannot produce a shot
+PASS: Host / host rejects combat request flooding/duplicates
+PASS: Host / excess requests cannot bypass 600 RPM server cooldown
+PASS: Host / automatic fire drains magazine to zero
+PASS: Host / empty magazine cannot fire or become negative
+PASS: Host / touch reload request starts a two-second host timer
+PASS: Host / host rejects shooting while reloading
+PASS: Host / reload synchronizes conserved 30/90 loadout
+PASS: Host / host can eliminate a client through server raycasts
+PASS: Host / both players' authoritative statistics update
+PASS: Host / eliminated client respawns into a new life
+PASS: Host / old-life combat and movement requests cannot affect the new life
+PASS: Host / host HUD receives hit, damage and kill-feed confirmations
+PASS: Host / firing effects received for operator 1
+PASS: Host / firing effects received for operator 2144084742
+PASS: Host / firing effects received for operator 2141386728
+PASS: Host / firing effects received for operator 1831986871
+PASS: Host / falling triggers a host-owned self-elimination
+PASS: Host / self-elimination never awards a kill
+PASS: Host / self-eliminated host respawns normally
+PASS: Host / partial reserve reload conserves the last round
+PASS: Host / empty reserve cannot start a reload or become negative
+COMBAT PEER RESULT: Host / 48 checks / 0 failures
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / client starts real ENet connection
+PASS: Client1 / health/life agrees with host for operator 1
+PASS: Client1 / ammo agrees with host for operator 1
+PASS: Client1 / statistics agree with host for operator 1
+PASS: Client1 / shot presentation received for operator 1
+PASS: Client1 / health/life agrees with host for operator 1831986871
+PASS: Client1 / ammo agrees with host for operator 1831986871
+PASS: Client1 / statistics agree with host for operator 1831986871
+PASS: Client1 / shot presentation received for operator 1831986871
+PASS: Client1 / health/life agrees with host for operator 2141386728
+PASS: Client1 / ammo agrees with host for operator 2141386728
+PASS: Client1 / statistics agree with host for operator 2141386728
+PASS: Client1 / shot presentation received for operator 2141386728
+PASS: Client1 / health/life agrees with host for operator 2144084742
+PASS: Client1 / ammo agrees with host for operator 2144084742
+PASS: Client1 / statistics agree with host for operator 2144084742
+PASS: Client1 / shot presentation received for operator 2144084742
+PASS: Client1 / both eliminations observed through reliable state
+PASS: Client1 / kill feed contains each elimination exactly once
+PASS: Client1 / health HUD follows authoritative local state
+COMBAT PEER RESULT: Client1 / 20 checks / 0 failures
+
+--- Client2 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client2 / client starts real ENet connection
+PASS: Client2 / four touch contacts independently own movement, aim, fire and look
+PASS: Client2 / touch movement continues while aiming and firing
+PASS: Client2 / touch held fire consumes only host-confirmed ammunition
+PASS: Client2 / dead client cannot alter authoritative ammo
+PASS: Client2 / health/life agrees with host for operator 1
+PASS: Client2 / ammo agrees with host for operator 1
+PASS: Client2 / statistics agree with host for operator 1
+PASS: Client2 / shot presentation received for operator 1
+PASS: Client2 / health/life agrees with host for operator 1831986871
+PASS: Client2 / ammo agrees with host for operator 1831986871
+PASS: Client2 / statistics agree with host for operator 1831986871
+PASS: Client2 / shot presentation received for operator 1831986871
+PASS: Client2 / health/life agrees with host for operator 2141386728
+PASS: Client2 / ammo agrees with host for operator 2141386728
+PASS: Client2 / statistics agree with host for operator 2141386728
+PASS: Client2 / shot presentation received for operator 2141386728
+PASS: Client2 / health/life agrees with host for operator 2144084742
+PASS: Client2 / ammo agrees with host for operator 2144084742
+PASS: Client2 / statistics agree with host for operator 2144084742
+PASS: Client2 / shot presentation received for operator 2144084742
+PASS: Client2 / both eliminations observed through reliable state
+PASS: Client2 / kill feed contains each elimination exactly once
+PASS: Client2 / health HUD follows authoritative local state
+PASS: Client2 / client reload, hitmarker and damage feedback dispatched
+PASS: Client2 / local client control restored after respawn
+COMBAT PEER RESULT: Client2 / 26 checks / 0 failures
+
+--- Client3 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client3 / client starts real ENet connection
+PASS: Client3 / health/life agrees with host for operator 1
+PASS: Client3 / ammo agrees with host for operator 1
+PASS: Client3 / statistics agree with host for operator 1
+PASS: Client3 / shot presentation received for operator 1
+PASS: Client3 / health/life agrees with host for operator 1831986871
+PASS: Client3 / ammo agrees with host for operator 1831986871
+PASS: Client3 / statistics agree with host for operator 1831986871
+PASS: Client3 / shot presentation received for operator 1831986871
+PASS: Client3 / health/life agrees with host for operator 2141386728
+PASS: Client3 / ammo agrees with host for operator 2141386728
+PASS: Client3 / statistics agree with host for operator 2141386728
+PASS: Client3 / shot presentation received for operator 2141386728
+PASS: Client3 / health/life agrees with host for operator 2144084742
+PASS: Client3 / ammo agrees with host for operator 2144084742
+PASS: Client3 / statistics agree with host for operator 2144084742
+PASS: Client3 / shot presentation received for operator 2144084742
+PASS: Client3 / both eliminations observed through reliable state
+PASS: Client3 / kill feed contains each elimination exactly once
+PASS: Client3 / health HUD follows authoritative local state
+COMBAT PEER RESULT: Client3 / 20 checks / 0 failures
+
+COMBAT TEST RESULT: 4 real processes, 114 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-combat-86m3rq73

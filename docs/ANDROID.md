@@ -1,6 +1,6 @@
 # Android debug build and two-phone testing
 
-The Phase 5 project is version **0.5.0/code 5**, package **com.shadowstrike.training**, app name **ShadowStrike**, ARM64 only, landscape/immersive and Mobile/Vulkan. All players must use protocol 4. Networking permissions are INTERNET and ACCESS_NETWORK_STATE for offline ENet UDP; the game has no internet service dependency. A Vulkan-capable device is required; API 24 alone does not guarantee a compatible GPU.
+The Phase 5 project is version **0.5.0/code 5**, package **com.shadowstrike.training**, app name **ShadowStrike**, ARM64 only, landscape/immersive and Mobile/Vulkan. For the reconstructed Sector 07 arena, all players must use the same protocol-5 build; earlier arena builds are refused. See [the current arena report](SECTOR07_RECONSTRUCTION_2.md). Networking permissions are INTERNET and ACCESS_NETWORK_STATE for offline ENet UDP; the game has no internet service dependency. A Vulkan-capable device is required; API 24 alone does not guarantee a compatible GPU.
 
 ## Build on Ubuntu
 

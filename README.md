@@ -6,6 +6,10 @@ An offline, Android-oriented 3D FPS training prototype built with **Godot 4.6.3 
 
 **Release verdict: READY FOR TESTING.** Phase 5 audits packaging, graphics presets, native synthetic touch and multiplayer regressions. [Release report, APK checks, performance evidence and phone acceptance](docs/RELEASE.md).
 
+Latest arena build: [Sector 07 APK](https://github.com/Muahid1312/ShadowStrike/raw/refs/tags/sector07-v2/releases/sector07-v2/ShadowStrike-sector07-v2-debug.apk). All LAN players need this **protocol-5** build. [Environment report and actual screenshots](docs/SECTOR07_RECONSTRUCTION_2.md).
+
+Cargo art is adapted from the official Godot TPS Demo, ©2018 Juan Linietsky and Fernando Miguel Calabró, CC-BY3.0; [full credits and modifications](assets/sector07/ATTRIBUTION.txt). Other reconstructed compound geometry is original.
+
 ## Play on Ubuntu
 
 Install the standard Godot **4.6.3** editor from [the official archive](https://godotengine.org/download/archive/). No .NET build, package manager, asset download, or external game service is needed. Put the executable on PATH as `godot`, or set `GODOT=/absolute/path/to/Godot`.
@@ -35,7 +39,7 @@ A graphical display and Vulkan-capable GPU/driver are required for the normal Mo
 | Live scoreboard | Tab | SCORES |
 | New drill after completion | T | NEW DRILL |
 
-In **PLAY / TRAINING RANGE**, hit the targets **10 times** to complete the drill. Seven targets flash on valid hits and accept another hit after 0.65 seconds. Concrete and crates block shots. Continue practicing or start a new drill to refill ammunition. The range has no enemies or incoming damage; health is intentionally full and labeled RANGE SAFE. The tower is scenery, not a climbable objective.
+In **PLAY / TRAINING RANGE**, hit the targets **10 times** to complete the drill. Seven targets flash on valid hits and accept another hit after 0.65 seconds. Concrete and crates block shots. Continue practicing or start a new drill to refill ammunition. The range has no enemies or incoming damage; health is intentionally full and labeled RANGE SAFE. The rebuilt Sector 07 observation tower is reachable by stairs.
 
 ## Offline LAN play
 
@@ -86,7 +90,7 @@ Scenes are intentionally small, with reusable scripts constructing actual Godot 
 ## Validation
 
 ```bash
-./tools/test.sh                          # 44 training + 34 contracts + 13 rules + 27 release checks
+./tools/test.sh                          # 44 training + 34 contracts + 13 rules + 27 release + 25 weapon + 31 map checks
 python3 tools/test_round.py --players 2    # full timer/kill-limit/rematch lifecycle
 python3 tools/test_round.py --players 4    # results disconnect and countdown cancellation
 python3 tools/test_lan.py --players 2      # real host + client

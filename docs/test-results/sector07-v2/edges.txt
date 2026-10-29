@@ -1,0 +1,82 @@
+--- capacity/host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: host / create edge-case host
+PASS: host / ready pair starts after test coordinator releases gate
+PASS: host / only admitted players reach match
+PASS: host / refused probe never changes authoritative roster
+EDGE RESULT: host / 4 checks / 0 failures
+
+--- capacity/participant ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: participant / participant enters match
+PASS: participant / host exit or crash returns participant to safe menu
+PASS: participant / host loss clears paused state and roster
+EDGE RESULT: participant / 3 checks / 0 failures
+
+--- capacity/probe ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: probe / refused connection ends within bounded timeout
+PASS: probe / failed connection clears ENet state
+PASS: probe / join form remains usable with visible error
+PASS: probe / join displays actionable connection failure
+PASS: probe / Back returns from failed join
+EDGE RESULT: probe / 5 checks / 0 failures
+
+--- old_map/host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: host / create edge-case host
+PASS: host / ready pair starts after test coordinator releases gate
+PASS: host / only admitted players reach match
+PASS: host / refused probe never changes authoritative roster
+EDGE RESULT: host / 4 checks / 0 failures
+
+--- old_map/participant ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: participant / participant enters match
+PASS: participant / host exit or crash returns participant to safe menu
+PASS: participant / host loss clears paused state and roster
+EDGE RESULT: participant / 3 checks / 0 failures
+
+--- old_map/probe ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: probe / refused connection ends within bounded timeout
+PASS: probe / failed connection clears ENet state
+PASS: probe / join form remains usable with visible error
+PASS: probe / join displays actionable connection failure
+PASS: probe / Back returns from failed join
+EDGE RESULT: probe / 5 checks / 0 failures
+
+PASS: live host forcibly killed without shutdown RPC
+--- late_join/host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: host / create edge-case host
+PASS: host / ready pair starts after test coordinator releases gate
+PASS: host / only admitted players reach match
+
+--- late_join/participant ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: participant / participant enters match
+PASS: participant / host exit or crash returns participant to safe menu
+PASS: participant / host loss clears paused state and roster
+EDGE RESULT: participant / 3 checks / 0 failures
+
+--- late_join/probe ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: probe / refused connection ends within bounded timeout
+PASS: probe / failed connection clears ENet state
+PASS: probe / join form remains usable with visible error
+PASS: probe / join displays actionable connection failure
+PASS: probe / Back returns from failed join
+EDGE RESULT: probe / 5 checks / 0 failures
+
+LAN EDGE RESULT: capacity refusal, old-map protocol refusal, late-join refusal, graceful exit and abrupt host loss passed
+Edge-case evidence: /tmp/shadowstrike-edges-k4bap9yb

@@ -42,3 +42,8 @@ grep -Eq 'RELEASE AUDIT RESULT: [0-9]+ checks, 0 failures' "$SHADOWSTRIKE_TEST_S
 cat "$SHADOWSTRIKE_TEST_STATE/weapon.log"
 if grep -Eq 'SCRIPT ERROR|ERROR:|FAIL:' "$SHADOWSTRIKE_TEST_STATE/weapon.log"; then exit 1; fi
 grep -Eq 'WEAPON CONTRACT RESULT: [0-9]+ checks, 0 failures' "$SHADOWSTRIKE_TEST_STATE/weapon.log"
+
+"$GODOT" --headless --path "$SHADOWSTRIKE_ROOT" res://tests/sector07_contract.tscn > "$SHADOWSTRIKE_TEST_STATE/sector07.log" 2>&1
+cat "$SHADOWSTRIKE_TEST_STATE/sector07.log"
+if grep -Eq 'SCRIPT ERROR|ERROR:|FAIL:' "$SHADOWSTRIKE_TEST_STATE/sector07.log"; then exit 1; fi
+grep -Eq 'SECTOR07 CONTRACT RESULT: [0-9]+ checks, 0 failures' "$SHADOWSTRIKE_TEST_STATE/sector07.log"

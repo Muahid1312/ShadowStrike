@@ -11,7 +11,7 @@ signal combat_intent(id: int, sequence: int, life: int, fire: bool, reload_reque
 signal combat_updated
 signal combat_event_received(event: Dictionary)
 signal fall_reported(id: int)
-const PROTOCOL := 4
+const PROTOCOL := 5 # Sector 07 collision revision: reject peers running the old arena.
 const DEFAULT_PORT := 7777
 const CONNECT_TIMEOUT := 10.0
 const LOAD_TIMEOUT := 25.0

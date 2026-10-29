@@ -1,0 +1,19 @@
+Sector 07 environment asset attribution
+
+Cargo crate mesh and its mid_cargo_box albedo/normal/ORM textures:
+Copyright (c) 2018 Juan Linietsky and Fernando Miguel Calabro.
+Source: official Godot Third Person Shooter Demo, https://github.com/godotengine/tps-demo
+Original mesh: level/geometry/models/props.glb, prop_cargobox3.001.
+Original textures: level/textures/props/mid_cargo_box_{albedo,normal,orm}.png.
+Licensed under Creative Commons Attribution 3.0 (CC-BY 3.0):
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Adaptations for ShadowStrike: extracted the cargo mesh, normalized its size/origin,
+resized textures to 1024x1024 and repacked as cargo.glb for static instancing.
+The upstream licence also acknowledges derivative Substance Painter materials
+provided by GameTextures.com. The upstream licence is included as TPS_LICENSE.txt.
+No endorsement by the original authors is implied.
+
+All other compound models, PBR textures, ground wear mask, terrain shader and layout
+in this Sector 07 reconstruction are original project work. Signage uses the existing
+Open Sans font; its existing licence remains in assets/fonts/LICENSE.txt.

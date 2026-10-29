@@ -35,7 +35,7 @@ def wait_file(path, processes, seconds=14):
         time.sleep(.05)
 
 try:
-    for case in ['capacity', 'late_join']:
+    for case in ['capacity', 'old_map', 'late_join']:
         folder = base / case
         folder.mkdir()
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as candidate:
@@ -53,7 +53,7 @@ try:
         probe.wait(timeout=15)
         if probe.returncode:
             raise RuntimeError(f'{case} probe failed')
-        if case == 'capacity':
+        if case in ['capacity', 'old_map']:
             (folder / 'release').touch()
             wait_file(folder / 'host-live', [host, participant])
             wait_file(folder / 'participant-live', [host, participant])
@@ -72,7 +72,7 @@ try:
             if ('SCRIPT ERROR' in log or 'ERROR:' in log or 'FAIL:' in log or
                 (not intentionally_killed and (process.returncode or 'EDGE RESULT:' not in log))):
                 raise RuntimeError(f'{case}/{role} did not pass')
-    print('LAN EDGE RESULT: capacity refusal, late-join refusal, graceful exit and abrupt host loss passed')
+    print('LAN EDGE RESULT: capacity refusal, old-map protocol refusal, late-join refusal, graceful exit and abrupt host loss passed')
 finally:
     for process in all_processes:
         if process.poll() is None:

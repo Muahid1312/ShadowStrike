@@ -1,0 +1,32 @@
+PASS: seven original target positions retained
+PASS: environment introduces no synchronized dynamic physics
+PASS: bounded deterministic static collision layout
+PASS: initial spawn capsule is clear: (-3.0, 0.05, 8.0)
+PASS: initial spawn capsule is clear: (3.0, 0.05, 8.0)
+PASS: initial spawn capsule is clear: (-3.0, 0.05, 15.0)
+PASS: initial spawn capsule is clear: (3.0, 0.05, 15.0)
+PASS: respawn capsule is clear: (-18.0, 0.05, 18.0)
+PASS: respawn capsule is clear: (18.0, 0.05, 18.0)
+PASS: respawn capsule is clear: (-18.0, 0.05, -8.0)
+PASS: respawn capsule is clear: (18.0, 0.05, -8.0)
+PASS: respawn capsule is clear: (0.0, 0.05, 19.0)
+PASS: respawn capsule is clear: (-17.0, 0.05, 5.0)
+PASS: respawn capsule is clear: (17.0, 0.05, 5.0)
+PASS: open building entrance fits standing player: (-18.0, 0.05, -8.0)
+PASS: open building entrance fits standing player: (14.0, 0.05, -1.0)
+PASS: open building entrance fits standing player: (-17.5, 0.05, 13.5)
+PASS: open building entrance fits standing player: (-22.0, 0.05, -12.0)
+PASS: window opening passes a real shot
+PASS: wall below window blocks a real shot
+PASS: tapered concrete cover blocks low shots
+PASS: shots above concrete cover remain clear
+PASS: security boundary also blocks tower-height escape
+PASS: unchanged player controller can walk up the actual tower staircase
+PASS: tower landing supports the standing player
+PASS: observation platform has standing clearance
+PASS: new target art preserves hit lockout and bright feedback
+PASS: target cooldown restores imported PBR materials
+PASS: quality preset 0 controls supported sun shadows/fog
+PASS: quality preset 1 controls supported sun shadows/fog
+PASS: quality preset 2 controls supported sun shadows/fog
+SECTOR07 CONTRACT RESULT: 31 checks, 0 failures

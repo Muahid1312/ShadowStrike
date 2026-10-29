@@ -1,0 +1,192 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: main scene opens the menu
+PASS: main menu has real Play and Quit buttons
+PASS: Settings button opens settings
+PASS: slider writes ConfigFile to disk
+PASS: preferences reload from disk
+PASS: master volume changes audio bus
+PASS: low quality disables shadows and fog
+PASS: low quality changes render scale
+PASS: Play loads arena and CharacterBody3D
+PASS: arena contains seven physical targets
+PASS: player settles on collidable ground
+PASS: W action moves player forward
+PASS: sprinting moves faster than walking
+PASS: jump leaves ground
+PASS: gravity returns player to floor
+PASS: camera yaw and pitch respond to look
+PASS: invert look reverses pitch
+PASS: aim sensitivity reduces camera motion
+PASS: joystick size preference changes touch geometry
+PASS: three simultaneous contacts independently move, look and fire
+PASS: right swipe accumulates look delta
+PASS: fire release preserves other contacts
+PASS: aim and sprint touch actions have separate ownership
+PASS: touch Jump reaches controller
+PASS: rifle fires a live physics ray
+PASS: shot consumes ammunition and valid target hit increments objective
+PASS: hitmarker and target flash activate
+PASS: fire rate rejects immediate duplicate shot
+PASS: target becomes available after visual cooldown
+PASS: concrete cover blocks raycast target damage
+PASS: touch Reload starts reload and prevents firing
+PASS: reload transfers only missing rounds from reserve
+PASS: partial reserve reload conserves ammunition
+PASS: empty rifle and empty reserve cannot fire or reload
+PASS: holding fire produces rate-limited automatic shots
+PASS: Pause freezes gameplay and clears held contacts
+PASS: reload clock and player physics stay frozen during pause
+PASS: settings remain interactive while paused
+PASS: Resume restores gameplay without a stuck trigger
+PASS: 10-hit objective unlocks new drill
+PASS: T shortcut starts new drill and resupplies with captured mouse
+PASS: Esc pauses once without consuming its own resume
+PASS: Esc resumes from the paused UI
+PASS: Back to Menu cleans up paused match
+SHADOWSTRIKE TEST RESULT: 44 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: ordinary display names accepted
+PASS: Unicode display names accepted
+PASS: control characters rejected
+PASS: untrimmed names rejected at authority boundary
+PASS: oversized display names rejected
+PASS: empty display names rejected
+PASS: valid direct IPv4 accepted: 127.0.0.1
+PASS: valid direct IPv4 accepted: 10.0.0.25
+PASS: valid direct IPv4 accepted: 192.168.53.7
+PASS: valid direct IPv4 accepted: 172.20.10.1
+PASS: invalid/broadcast/non-IPv4 endpoint rejected:
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: host.example
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 999.2.3.4
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 224.0.0.1
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 255.255.255.255
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 0.0.0.0
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 192.168.001.2
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: ::1
+PASS: bounded input command accepted
+PASS: speed-hack axis rejected
+PASS: non-finite orientation rejected
+PASS: nonboolean action flags rejected
+PASS: extra arbitrary position field rejected
+PASS: state dictionary cannot substitute for input packet
+PASS: host refuses capacity above four before binding
+PASS: host refuses capacity below two
+PASS: invalid port cannot create a session
+PASS: Android export configuration parses
+PASS: Android INTERNET permission enabled for local sockets
+PASS: Android network-state permission configured
+PASS: landscape setting preserved
+PASS: Mobile renderer preserved
+PASS: Esc returns from the LAN form
+PASS: premature focus/pause during network loading is safe
+NETWORK CONTRACT RESULT: 34 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: five-minute FFA default retained
+PASS: kill limit disabled by default
+PASS: equal eliminations/deaths use stable ID ordering
+PASS: eliminations outrank fewer deaths, deaths break elimination ties
+PASS: score is derived at 100 points per elimination
+PASS: ranking returns a copy without mutating source records
+PASS: offline peer cannot initiate countdown
+PASS: offline/client cannot change a live host's rules
+PASS: non-host cannot force results
+PASS: non-host cannot force rematch
+PASS: rejected requests leave state unchanged
+PASS: menu touch mouse emulation enabled
+PASS: synthetic screen tap activates standard GUI button exactly once
+RULES CONTRACT RESULT: 13 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Android preset loads
+PASS: official Gradle Android template selected
+PASS: export uses matching template SDK defaults
+PASS: ARM64 export enabled
+PASS: Android ETC2/ASTC import enabled
+PASS: preset 0 applies real render scale
+PASS: preset 0 changes shadows/fog
+PASS: preset 0 applies supported MSAA
+PASS: preset 1 applies real render scale
+PASS: preset 1 changes shadows/fog
+PASS: preset 1 applies supported MSAA
+PASS: preset 2 applies real render scale
+PASS: preset 2 changes shadows/fog
+PASS: preset 2 applies supported MSAA
+PASS: master volume changes the actual audio bus
+PASS: LOW/MEDIUM/HIGH labels match real presets
+PASS: small muzzle flash uses a bounded low polygon mesh
+PASS: idle range targets do not schedule per-frame callbacks
+PASS: emulated touch mouse motion cannot double camera look
+PASS: native emulated joystick touch moves without accidental shooting
+PASS: held native fire fires at the 600 RPM rate while moving
+PASS: background notification clears held touch/fire and opens local pause
+PASS: resume does not restore stale movement or fire
+PASS: native touch Reload reaches the real weapon
+PASS: landscape (1280.0, 720.0) touch zones remain on-screen and separate
+PASS: landscape (1600.0, 720.0) touch zones remain on-screen and separate
+PASS: landscape (1440.0, 720.0) touch zones remain on-screen and separate
+RELEASE AUDIT RESULT: 27 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: imported GLB exposes magazine, support hand and muzzle
+PASS: detailed imported model stays within 8k triangles / 16 surfaces
+PASS: flash is attached exactly to the modeled muzzle
+PASS: muzzle flash uses a tiny mobile billboard
+PASS: hip model never crosses camera near plane
+PASS: idle breathing moves the viewmodel
+PASS: visual updates leave camera aim, health and ammo unchanged
+PASS: ADS centers hollow optic on the camera aiming axis
+PASS: ADS model stays behind the near plane
+PASS: shot recoil kicks the model back and up
+PASS: sprint smoothly lowers and cants the rifle
+PASS: sprint model stays behind the near plane
+PASS: real camera-ray firing still consumes one round
+PASS: accepted shot immediately displays the muzzle flash
+PASS: real training reload starts normally
+PASS: reload removes the magazine and reaches it with the support hand
+PASS: reload model and moving hand avoid near-plane clipping
+PASS: removed magazine remains in the gameplay viewport
+PASS: reload presentation cannot permit firing or alter ammo
+PASS: training reload preserves original transfer and timing
+PASS: magazine and support hand return exactly to rest
+PASS: network visual step does not simulate host reload/ammo
+PASS: LAN reload animation follows the two-second host remaining time
+PASS: host completion seats magazine without client ammo simulation
+PASS: death cancels reload presentation and restores transforms
+WEAPON CONTRACT RESULT: 25 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: seven original target positions retained
+PASS: environment introduces no synchronized dynamic physics
+PASS: bounded deterministic static collision layout
+PASS: initial spawn capsule is clear: (-3.0, 0.05, 8.0)
+PASS: initial spawn capsule is clear: (3.0, 0.05, 8.0)
+PASS: initial spawn capsule is clear: (-3.0, 0.05, 15.0)
+PASS: initial spawn capsule is clear: (3.0, 0.05, 15.0)
+PASS: respawn capsule is clear: (-18.0, 0.05, 18.0)
+PASS: respawn capsule is clear: (18.0, 0.05, 18.0)
+PASS: respawn capsule is clear: (-18.0, 0.05, -8.0)
+PASS: respawn capsule is clear: (18.0, 0.05, -8.0)
+PASS: respawn capsule is clear: (0.0, 0.05, 19.0)
+PASS: respawn capsule is clear: (-17.0, 0.05, 5.0)
+PASS: respawn capsule is clear: (17.0, 0.05, 5.0)
+PASS: open building entrance fits standing player: (-18.0, 0.05, -8.0)
+PASS: open building entrance fits standing player: (14.0, 0.05, -1.0)
+PASS: open building entrance fits standing player: (-17.5, 0.05, 13.5)
+PASS: open building entrance fits standing player: (-22.0, 0.05, -12.0)
+PASS: window opening passes a real shot
+PASS: wall below window blocks a real shot
+PASS: tapered concrete cover blocks low shots
+PASS: shots above concrete cover remain clear
+PASS: security boundary also blocks tower-height escape
+PASS: unchanged player controller can walk up the actual tower staircase
+PASS: tower landing supports the standing player
+PASS: observation platform has standing clearance
+PASS: new target art preserves hit lockout and bright feedback
+PASS: target cooldown restores imported PBR materials
+PASS: quality preset 0 controls supported sun shadows/fog
+PASS: quality preset 1 controls supported sun shadows/fog
+PASS: quality preset 2 controls supported sun shadows/fog
+SECTOR07 CONTRACT RESULT: 31 checks, 0 failures

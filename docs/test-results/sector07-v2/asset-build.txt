@@ -1,0 +1,177 @@
+17:28:23 | INFO: Data are loaded, start creating Blender stuff
+17:28:23 | INFO: Blender create Mesh node Cube.378
+17:28:23 | INFO: Blender create Mesh node Cube.047
+17:28:23 | INFO: Blender create Mesh node Cube.006
+17:28:23 | INFO: Blender create Mesh node Cube.057
+17:28:23 | INFO: Blender create Mesh node Cube.060
+17:28:23 | INFO: Blender create Mesh node Cube.408
+17:28:23 | INFO: Blender create Mesh node Cube.054
+17:28:23 | INFO: Blender create Mesh node Cube.407
+17:28:23 | INFO: Blender create Mesh node Cube.315
+17:28:23 | INFO: Blender create Mesh node Cube.403
+17:28:23 | INFO: Blender create Mesh node Cube.044
+17:28:23 | INFO: Blender create Mesh node Cube.400
+17:28:23 | INFO: Blender create Mesh node Cube.316
+17:28:23 | INFO: Blender create Mesh node Cube.401
+17:28:23 | INFO: Blender create Mesh node Cube.402
+17:28:23 | INFO: Blender create Mesh node Cube.377
+17:28:23 | INFO: Blender create Mesh node Cube.441
+17:28:23 | INFO: Blender create Mesh node Circle.028
+17:28:23 | INFO: Blender create Mesh node Cube.442
+17:28:23 | INFO: Blender create Mesh node Cube.436
+17:28:23 | INFO: Blender create Mesh node Cube.431
+17:28:23 | INFO: Blender create Mesh node Cube.432
+17:28:23 | INFO: Blender create Mesh node Cube.015
+17:28:23 | INFO: Blender create Mesh node Cube.021
+17:28:23 | INFO: Blender create Mesh node Cube.037
+17:28:23 | INFO: Blender create Mesh node Circle.044
+17:28:23 | INFO: Blender create Mesh node Cube.005
+17:28:23 | INFO: Blender create Mesh node Cube.322
+17:28:23 | INFO: Blender create Mesh node Cube.366
+17:28:23 | INFO: Blender create Mesh node Cube.362
+17:28:23 | INFO: Blender create Mesh node Cube.367
+17:28:23 | INFO: Blender create Mesh node Cube.428
+17:28:23 | INFO: Blender create Mesh node Circle.023
+17:28:23 | INFO: Blender create Mesh node Cube.327
+17:28:23 | INFO: Blender create Mesh node Cube.328
+17:28:23 | INFO: Blender create Mesh node Cube.024
+17:28:23 | INFO: Blender create Mesh node Cube.278
+17:28:23 | INFO: Blender create Mesh node Cube.370
+17:28:23 | INFO: Blender create Mesh node Cube.371
+17:28:23 | INFO: Blender create Mesh node Cube.394
+17:28:23 | INFO: Blender create Mesh node Cube.395
+17:28:23 | INFO: Blender create Mesh node Cube.433
+17:28:23 | INFO: Blender create Mesh node Cube.435
+17:28:23 | INFO: Blender create Mesh node Cube.446
+17:28:23 | INFO: Blender create Mesh node Cube.368
+17:28:23 | INFO: Blender create Mesh node Cube.317
+17:28:23 | INFO: Blender create Mesh node Cube.323
+17:28:23 | INFO: Blender create Mesh node Cube.320
+17:28:23 | INFO: Blender create Mesh node Cube.412
+17:28:23 | INFO: Blender create Mesh node Cube.413
+17:28:23 | INFO: Blender create Mesh node Cube.409
+17:28:23 | INFO: Blender create Mesh node Cube.410
+17:28:23 | INFO: Blender create Mesh node Cube.406
+17:28:23 | INFO: Blender create Mesh node Cube.405
+17:28:23 | INFO: Blender create Mesh node Cube.031
+17:28:23 | INFO: Blender create Mesh node Cube.423
+17:28:23 | INFO: Blender create Mesh node Cube.422
+17:28:23 | INFO: Blender create Mesh node Cube.427
+17:28:23 | INFO: Blender create Mesh node Circle.024
+17:28:23 | INFO: Blender create Mesh node Cube.411
+17:28:23 | INFO: Blender create Mesh node Cube.364
+17:28:23 | INFO: Blender create Mesh node Cube.418
+17:28:23 | INFO: Blender create Mesh node Cube.385
+17:28:23 | INFO: Blender create Mesh node Cube.417
+17:28:23 | INFO: Blender create Mesh node Cube.297
+17:28:23 | INFO: Blender create Mesh node Cube.319
+17:28:23 | INFO: Blender create Mesh node Cube.414
+17:28:23 | INFO: Blender create Mesh node Cube.369
+17:28:23 | INFO: Blender create Mesh node Cube.424
+17:28:23 | INFO: Blender create Mesh node Cube.398
+17:28:23 | INFO: Blender create Mesh node Cube.399
+17:28:23 | INFO: Blender create Mesh node Cube.445
+17:28:23 | INFO: Blender create Mesh node Cube.040
+17:28:23 | INFO: Blender create Mesh node Cube.318
+17:28:23 | INFO: Blender create Mesh node Cube.393
+17:28:23 | INFO: Blender create Mesh node Cube.388
+17:28:23 | INFO: Blender create Mesh node Cube.391
+17:28:23 | INFO: Blender create Mesh node Cube.389
+17:28:23 | INFO: Blender create Mesh node Cube.415
+17:28:23 | INFO: Blender create Mesh node Cube.416
+17:28:23 | INFO: Blender create Mesh node Cube.375
+17:28:23 | INFO: Blender create Mesh node Cube.374
+17:28:23 | INFO: Blender create Mesh node Circle.019
+17:28:23 | INFO: Blender create Mesh node Circle.017
+17:28:23 | INFO: Blender create Mesh node Cube.440
+17:28:23 | INFO: Blender create Mesh node Cube.437
+17:28:23 | INFO: Blender create Mesh node Cube.434
+17:28:23 | INFO: Blender create Mesh node Cube.042
+17:28:23 | INFO: Blender create Mesh node Cube.043
+17:28:23 | INFO: Blender create Mesh node Cube.008
+17:28:23 | INFO: Blender create Mesh node Cube.035
+17:28:23 | INFO: Blender create Mesh node Cube.012
+17:28:23 | INFO: Blender create Mesh node Cube.010
+17:28:23 | INFO: Blender create Mesh node Cube.397
+17:28:23 | INFO: Blender create Mesh node Circle.498
+17:28:23 | INFO: Blender create Mesh node Cube.016
+17:28:23 | INFO: Blender create Mesh node Cube.017
+17:28:23 | INFO: Blender create Mesh node Cube.014
+17:28:23 | INFO: Blender create Mesh node Cube.009
+17:28:23 | INFO: Blender create Mesh node Cube.018
+17:28:23 | INFO: Blender create Mesh node Cube.007
+17:28:23 | INFO: Blender create Mesh node Cube.004
+17:28:23 | INFO: Blender create Mesh node Cube.003
+17:28:23 | INFO: Blender create Mesh node Cube.036
+17:28:23 | INFO: Blender create Mesh node Cube.002
+17:28:23 | INFO: Blender create Mesh node Cube.019
+17:28:23 | INFO: Blender create Mesh node Cube.001
+17:28:23 | INFO: Blender create Mesh node Cube.029
+17:28:23 | INFO: Blender create Mesh node Cube.013
+17:28:23 | INFO: Blender create Mesh node Cube.011
+17:28:23 | INFO: Blender create Mesh node Cube.055
+17:28:23 | INFO: Blender create Mesh node Cube.052
+17:28:23 | INFO: Blender create Mesh node Cube.063
+17:28:23 | INFO: Blender create Mesh node Cube.050
+17:28:23 | INFO: Blender create Mesh node Cube.045
+17:28:23 | INFO: Blender create Mesh node Cube.026
+17:28:23 | INFO: Blender create Mesh node Cube.025
+17:28:23 | INFO: Blender create Mesh node Cube.022
+17:28:23 | INFO: Blender create Mesh node Cube.020
+17:28:23 | INFO: Blender create Mesh node Cube.034
+17:28:23 | INFO: Blender create Mesh node Cube.570
+17:28:23 | INFO: Blender create Mesh node Cube.062
+17:28:23 | INFO: Blender create Mesh node Cube.033
+17:28:23 | INFO: Blender create Mesh node Cube.030
+17:28:23 | INFO: Blender create Mesh node Cube.027
+17:28:23 | INFO: Blender create Mesh node Cube.023
+17:28:23 | INFO: Blender create Mesh node hall_circ1125_genericwalls.003
+17:28:23 | INFO: Blender create Mesh node hall_circ1125_genericwalls.004
+17:28:23 | INFO: Blender create Mesh node Cube.028
+17:28:23 | INFO: Blender create Mesh node Cube.032
+17:28:23 | INFO: glTF import finished in 0.57s
+ERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so
+17:28:24 | INFO: Starting glTF 2.0 export
+17:28:24 | INFO: Extracting primitive: Cube.038
+17:28:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+17:28:24 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:28:24 | INFO: Primitives created: 1
+17:28:24 | INFO: Finished glTF 2.0 export in 0.0525357723236084 s
+
+Warning: No mesh data to join
+17:28:42 | INFO: Starting glTF 2.0 export
+17:28:42 | INFO: Extracting primitive: Cube.039
+17:28:42 | INFO: Primitives created: 6
+17:28:42 | INFO: Extracting primitive: Cube.118
+17:28:42 | INFO: Primitives created: 6
+17:28:42 | INFO: Extracting primitive: Cube.193
+17:28:42 | INFO: Primitives created: 6
+17:28:42 | INFO: Extracting primitive: Cube.257
+17:28:42 | INFO: Primitives created: 4
+17:28:42 | INFO: Extracting primitive: Cast jersey barrier
+17:28:42 | INFO: Primitives created: 2
+17:28:42 | INFO: Extracting primitive: Cube.372
+17:28:42 | INFO: Primitives created: 4
+17:28:42 | INFO: Extracting primitive: Desert escarpment
+17:28:42 | INFO: Primitives created: 1
+17:28:42 | INFO: Extracting primitive: Range backstop
+17:28:42 | INFO: Primitives created: 1
+17:28:42 | INFO: Finished glTF 2.0 export in 0.11772775650024414 s
+
+Warning: No mesh data to join
+Warning: No mesh data to join
+17:28:42 | INFO: Starting glTF 2.0 export
+17:28:42 | INFO: Extracting primitive: FuelDrum
+17:28:42 | INFO: Primitives created: 1
+17:28:42 | INFO: Extracting primitive: Cube.478
+17:28:42 | INFO: Primitives created: 1
+17:28:42 | INFO: Extracting primitive: Cylinder.296
+17:28:42 | INFO: Primitives created: 2
+17:28:42 | INFO: Extracting primitive: Cube.482
+17:28:42 | INFO: Primitives created: 3
+17:28:43 | INFO: Finished glTF 2.0 export in 0.05696511268615723 s
+
+SECTOR07 {"HQ": {"triangles": 2828, "surfaces": 6}, "Workshop": {"triangles": 3268, "surfaces": 6}, "Barracks": {"triangles": 2784, "surfaces": 6}, "Perimeter": {"triangles": 9520, "surfaces": 4}, "Barriers": {"triangles": 1828, "surfaces": 2}, "Tower": {"triangles": 3572, "surfaces": 4}, "Background": {"triangles": 4720, "surfaces": 1}, "Range": {"triangles": 120, "surfaces": 1}, "FuelDrum": {"triangles": 396, "surfaces": 1}, "Sandbag": {"triangles": 44, "surfaces": 1}, "TargetFrame": {"triangles": 160, "surfaces": 2}, "TargetPlate": {"triangles": 98, "surfaces": 3}} COLLIDERS 100
+Blender 4.3.2
+
+Blender quit
