@@ -1,0 +1,32 @@
+{
+  "Body": {
+    "triangles": 6042,
+    "vertices": 3650,
+    "materials": 5
+  },
+  "Magazine": {
+    "triangles": 140,
+    "vertices": 104,
+    "materials": 3
+  },
+  "SupportHand": {
+    "triangles": 472,
+    "vertices": 264,
+    "materials": 2
+  },
+  "FiringHand": {
+    "triangles": 184,
+    "vertices": 104,
+    "materials": 1
+  },
+  "FiringForearm": {
+    "triangles": 72,
+    "vertices": 40,
+    "materials": 2
+  },
+  "SupportForearm": {
+    "triangles": 72,
+    "vertices": 40,
+    "materials": 2
+  }
+}

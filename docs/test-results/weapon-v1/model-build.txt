@@ -1,0 +1,20 @@
+ERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so
+16:22:09 | INFO: Starting glTF 2.0 export
+16:22:09 | INFO: Extracting primitive: Forged upper receiver
+16:22:09 | INFO: Primitives created: 5
+16:22:09 | INFO: Extracting primitive: Cone.032
+16:22:09 | INFO: Primitives created: 2
+16:22:09 | INFO: Extracting primitive: Cube.089
+16:22:09 | INFO: Primitives created: 1
+16:22:09 | INFO: Extracting primitive: Curved magazine
+16:22:09 | INFO: Primitives created: 3
+16:22:09 | INFO: Extracting primitive: Cone.034
+16:22:09 | INFO: Primitives created: 2
+16:22:09 | INFO: Extracting primitive: Cube.084
+16:22:09 | INFO: Primitives created: 2
+16:22:09 | INFO: Finished glTF 2.0 export in 0.03388023376464844 s
+
+AR01_GEOMETRY {"Body": {"triangles": 6042, "vertices": 3650, "materials": 5}, "Magazine": {"triangles": 140, "vertices": 104, "materials": 3}, "SupportHand": {"triangles": 472, "vertices": 264, "materials": 2}, "FiringHand": {"triangles": 184, "vertices": 104, "materials": 1}, "FiringForearm": {"triangles": 72, "vertices": 40, "materials": 2}, "SupportForearm": {"triangles": 72, "vertices": 40, "materials": 2}} TOTAL 6982
+Blender 4.3.2
+
+Blender quit
