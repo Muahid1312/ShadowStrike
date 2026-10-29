@@ -1,0 +1,353 @@
+Phase 5 exact setup, exit0, 2026-10-29.
+Configured Godot Android editor paths. No credentials or signing keys stored in the repository.
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+cannot connect to daemon at tcp:5037: Connection refused
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: main scene opens the menu
+PASS: main menu has real Play and Quit buttons
+PASS: Settings button opens settings
+PASS: slider writes ConfigFile to disk
+PASS: preferences reload from disk
+PASS: master volume changes audio bus
+PASS: low quality disables shadows and fog
+PASS: low quality changes render scale
+PASS: Play loads arena and CharacterBody3D
+PASS: arena contains seven physical targets
+PASS: player settles on collidable ground
+PASS: W action moves player forward
+PASS: sprinting moves faster than walking
+PASS: jump leaves ground
+PASS: gravity returns player to floor
+PASS: camera yaw and pitch respond to look
+PASS: invert look reverses pitch
+PASS: aim sensitivity reduces camera motion
+PASS: joystick size preference changes touch geometry
+PASS: three simultaneous contacts independently move, look and fire
+PASS: right swipe accumulates look delta
+PASS: fire release preserves other contacts
+PASS: aim and sprint touch actions have separate ownership
+PASS: touch Jump reaches controller
+PASS: rifle fires a live physics ray
+PASS: shot consumes ammunition and valid target hit increments objective
+PASS: hitmarker and target flash activate
+PASS: fire rate rejects immediate duplicate shot
+PASS: target becomes available after visual cooldown
+PASS: concrete cover blocks raycast target damage
+PASS: touch Reload starts reload and prevents firing
+PASS: reload transfers only missing rounds from reserve
+PASS: partial reserve reload conserves ammunition
+PASS: empty rifle and empty reserve cannot fire or reload
+PASS: holding fire produces rate-limited automatic shots
+PASS: Pause freezes gameplay and clears held contacts
+PASS: reload clock and player physics stay frozen during pause
+PASS: settings remain interactive while paused
+PASS: Resume restores gameplay without a stuck trigger
+PASS: 10-hit objective unlocks new drill
+PASS: T shortcut starts new drill and resupplies with captured mouse
+PASS: Esc pauses once without consuming its own resume
+PASS: Esc resumes from the paused UI
+PASS: Back to Menu cleans up paused match
+SHADOWSTRIKE TEST RESULT: 44 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: ordinary display names accepted
+PASS: Unicode display names accepted
+PASS: control characters rejected
+PASS: untrimmed names rejected at authority boundary
+PASS: oversized display names rejected
+PASS: empty display names rejected
+PASS: valid direct IPv4 accepted: 127.0.0.1
+PASS: valid direct IPv4 accepted: 10.0.0.25
+PASS: valid direct IPv4 accepted: 192.168.53.7
+PASS: valid direct IPv4 accepted: 172.20.10.1
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: host.example
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 999.2.3.4
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 224.0.0.1
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 255.255.255.255
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 0.0.0.0
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: 192.168.001.2
+PASS: invalid/broadcast/non-IPv4 endpoint rejected: ::1
+PASS: bounded input command accepted
+PASS: speed-hack axis rejected
+PASS: non-finite orientation rejected
+PASS: nonboolean action flags rejected
+PASS: extra arbitrary position field rejected
+PASS: state dictionary cannot substitute for input packet
+PASS: host refuses capacity above four before binding
+PASS: host refuses capacity below two
+PASS: invalid port cannot create a session
+PASS: Android export configuration parses
+PASS: Android INTERNET permission enabled for local sockets
+PASS: Android network-state permission configured
+PASS: landscape setting preserved
+PASS: Mobile renderer preserved
+PASS: Esc returns from the LAN form
+PASS: premature focus/pause during network loading is safe
+NETWORK CONTRACT RESULT: 34 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: five-minute FFA default retained
+PASS: kill limit disabled by default
+PASS: equal eliminations/deaths use stable ID ordering
+PASS: eliminations outrank fewer deaths, deaths break elimination ties
+PASS: score is derived at 100 points per elimination
+PASS: ranking returns a copy without mutating source records
+PASS: offline peer cannot initiate countdown
+PASS: offline/client cannot change a live host's rules
+PASS: non-host cannot force results
+PASS: non-host cannot force rematch
+PASS: rejected requests leave state unchanged
+PASS: menu touch mouse emulation enabled
+PASS: synthetic screen tap activates standard GUI button exactly once
+RULES CONTRACT RESULT: 13 checks, 0 failures
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Android preset loads
+PASS: official Gradle Android template selected
+PASS: export uses matching template SDK defaults
+PASS: ARM64 export enabled
+PASS: Android ETC2/ASTC import enabled
+PASS: preset 0 applies real render scale
+PASS: preset 0 changes shadows/fog
+PASS: preset 0 applies supported MSAA
+PASS: preset 1 applies real render scale
+PASS: preset 1 changes shadows/fog
+PASS: preset 1 applies supported MSAA
+PASS: preset 2 applies real render scale
+PASS: preset 2 changes shadows/fog
+PASS: preset 2 applies supported MSAA
+PASS: master volume changes the actual audio bus
+PASS: LOW/MEDIUM/HIGH labels match real presets
+PASS: small muzzle flash uses a bounded low polygon mesh
+PASS: idle range targets do not schedule per-frame callbacks
+PASS: emulated touch mouse motion cannot double camera look
+PASS: native emulated joystick touch moves without accidental shooting
+PASS: held native fire fires at the 600 RPM rate while moving
+PASS: background notification clears held touch/fire and opens local pause
+PASS: resume does not restore stale movement or fire
+PASS: native touch Reload reaches the real weapon
+PASS: landscape (1280.0, 720.0) touch zones remain on-screen and separate
+PASS: landscape (1600.0, 720.0) touch zones remain on-screen and separate
+PASS: landscape (1440.0, 720.0) touch zones remain on-screen and separate
+RELEASE AUDIT RESULT: 27 checks, 0 failures
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Host / host creates lobby and registers itself
+PASS: Host / one-player match cannot start
+PASS: Host / host refuses unready roster
+PASS: Host / real lobby UI lists every connected operator
+PASS: Host / duplicate match start is rejected
+PASS: Host / load barrier activates the shared arena
+PASS: Host / one remote model per other peer, no duplicates
+PASS: Host / host assigns distinct spawn locations
+PASS: Host / local player retains first-person camera and rifle
+PASS: Host / remote avatar has no camera
+PASS: Host / server ghost has no first-person systems
+PASS: Host / host pause menu keeps LAN simulation alive
+PASS: Host / host keeps advancing match while its menu is open
+PASS: Host / host resumes local control
+PASS: Host / own operator moves independently through controller input
+PASS: Host / every other operator visibly moves through replicated transforms
+PASS: Host / remote interpolation produces intermediate motion without large position steps
+PASS: Host / authoritative jumping replicates to every observer
+PASS: Host / remote head look pitch is synchronized
+PASS: Host / host rejects oversized axes, NaN and injected position fields
+PASS: Host / capacity stays within four operators
+PASS: Host / host shutdown cleans up ENet and match
+LAN PEER RESULT: Host / 22 checks / failed=false
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / duplicate session creation is rejected
+PASS: Client1 / client receives host and own roster entry
+PASS: Client1 / client cannot start match
+PASS: Client1 / load barrier activates the shared arena
+PASS: Client1 / one remote model per other peer, no duplicates
+PASS: Client1 / host assigns distinct spawn locations
+PASS: Client1 / local player retains first-person camera and rifle
+PASS: Client1 / remote avatar has no camera
+PASS: Client1 / own operator moves independently through controller input
+PASS: Client1 / every other operator visibly moves through replicated transforms
+PASS: Client1 / remote interpolation produces intermediate motion without large position steps
+PASS: Client1 / authoritative jumping replicates to every observer
+PASS: Client1 / remote head look pitch is synchronized
+PASS: Client1 / real ENet snapshots and input batches flow
+PASS: Client1 / server acknowledgements keep prediction replay bounded
+PASS: Client1 / host departure returns client to clean menu
+LAN PEER RESULT: Client1 / 16 checks / failed=false
+
+LAN TEST RESULT: 2 real processes, 38 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-lan-aqqdrd04
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Host / host creates combat lobby
+PASS: Host / host starts ready combat roster
+PASS: Host / host owns one combat record per player
+PASS: Host / LAN loadout is 30/120
+PASS: Host / initial spawn protection blocks damage
+PASS: Host / accepted fire consumes ammo and ends shooter protection
+PASS: Host / server ray body hit deals exactly 20 HP
+PASS: Host / distinct head hitbox deals exactly 40 HP
+PASS: Host / wall raycast occlusion prevents damage
+PASS: Host / client body shot is validated on host
+PASS: Host / client head shot deals authoritative 40 HP
+PASS: Host / automatic client fire eliminates host at zero HP
+PASS: Host / host maintains elimination/death statistics
+PASS: Host / eliminated host cannot fire or reload
+PASS: Host / dead hit guard rejects repeated damage
+PASS: Host / duplicate damage cannot repeat elimination stats
+PASS: Host / automatic respawn occurs after about three seconds
+PASS: Host / respawn restores HP and complete loadout
+PASS: Host / respawn increments life and starts two-second protection
+PASS: Host / spawn is separated from living operators
+PASS: Host / respawn capsule is not inside arena obstacles
+PASS: Host / post-respawn protection rejects an incoming live shot
+PASS: Host / protected player firing ends protection early
+PASS: Host / damage resumes immediately after protection ends
+PASS: Host / simultaneous touch movement/aim/fire reaches authoritative shooting
+PASS: Host / press/release in one host update retains exactly one valid shot
+PASS: Host / non-finite or out-of-range combat aim cannot produce a shot
+PASS: Host / host rejects combat request flooding/duplicates
+PASS: Host / excess requests cannot bypass 600 RPM server cooldown
+PASS: Host / automatic fire drains magazine to zero
+PASS: Host / empty magazine cannot fire or become negative
+PASS: Host / touch reload request starts a two-second host timer
+PASS: Host / host rejects shooting while reloading
+PASS: Host / reload synchronizes conserved 30/90 loadout
+PASS: Host / host can eliminate a client through server raycasts
+PASS: Host / both players' authoritative statistics update
+PASS: Host / eliminated client respawns into a new life
+PASS: Host / old-life combat and movement requests cannot affect the new life
+PASS: Host / host HUD receives hit, damage and kill-feed confirmations
+PASS: Host / firing effects received for operator 1
+PASS: Host / firing effects received for operator 309759178
+PASS: Host / falling triggers a host-owned self-elimination
+PASS: Host / self-elimination never awards a kill
+PASS: Host / self-eliminated host respawns normally
+PASS: Host / partial reserve reload conserves the last round
+PASS: Host / empty reserve cannot start a reload or become negative
+COMBAT PEER RESULT: Host / 46 checks / 0 failures
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / client starts real ENet connection
+PASS: Client1 / four touch contacts independently own movement, aim, fire and look
+PASS: Client1 / touch movement continues while aiming and firing
+PASS: Client1 / touch held fire consumes only host-confirmed ammunition
+PASS: Client1 / dead client cannot alter authoritative ammo
+PASS: Client1 / health/life agrees with host for operator 1
+PASS: Client1 / ammo agrees with host for operator 1
+PASS: Client1 / statistics agree with host for operator 1
+PASS: Client1 / shot presentation received for operator 1
+PASS: Client1 / health/life agrees with host for operator 309759178
+PASS: Client1 / ammo agrees with host for operator 309759178
+PASS: Client1 / statistics agree with host for operator 309759178
+PASS: Client1 / shot presentation received for operator 309759178
+PASS: Client1 / both eliminations observed through reliable state
+PASS: Client1 / kill feed contains each elimination exactly once
+PASS: Client1 / health HUD follows authoritative local state
+PASS: Client1 / client reload, hitmarker and damage feedback dispatched
+PASS: Client1 / local client control restored after respawn
+COMBAT PEER RESULT: Client1 / 18 checks / 0 failures
+
+COMBAT TEST RESULT: 2 real processes, 64 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-combat-pie5oci9
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Host / host UI defaults to five minutes with kill limit off
+PASS: Host / host creates FFA lobby
+PASS: Host / short automated duration is host-configurable
+PASS: Host / host starts ready FFA roster
+PASS: Host / duplicate starts/countdowns rejected
+PASS: Host / movement/fire blocked outside PLAYING
+PASS: Host / 3/2/1 countdown observed before play
+PASS: Host / play waits for host's three-second countdown
+PASS: Host / short host timer begins at PLAYING
+PASS: Host / real elimination awards exactly 100 points and rank one
+PASS: Host / death increments once and awards zero points
+PASS: Host / duplicate elimination/notification cannot add score
+PASS: Host / scoreboard is event-driven, not rebuilt each frame
+PASS: Host / personal pause keeps authoritative match time running
+PASS: Host / timer reaching zero ends the match
+PASS: Host / configured short round lasts the host's configured duration
+PASS: Host / host winner and victory presentation agree
+PASS: Host / results controls fit landscape viewport
+PASS: Host / movement/fire blocked outside PLAYING
+PASS: Host / duplicate results transition rejected
+PASS: Host / results remain immutable after attempted actions
+PASS: Host / host rematch returns the existing session to lobby
+PASS: Host / rematch preserves operator identity/name
+PASS: Host / rematch preserves operator identity/name
+PASS: Host / lobby contains no stale player bodies
+PASS: Host / lobby resets combat/stat/result data
+PASS: Host / rematch resets clients to Not Ready
+PASS: Host / host configures optional kill limit for rematch
+PASS: Host / host starts a new ready round
+PASS: Host / 3/2/1 countdown observed before play
+PASS: Host / play waits for host's three-second countdown
+PASS: Host / rematch has a fresh epoch and no duplicated bodies
+PASS: Host / rematch resets full loadout/health/stats/respawn state
+PASS: Host / rematch resets full loadout/health/stats/respawn state
+PASS: Host / kill limit ends rematch before time expires
+PASS: Host / new round scoring does not accumulate old-round kills
+PASS: Host / host alone can reopen results lobby
+PASS: Host / countdown cancels to lobby when fewer than two remain
+PASS: Host / cancelled one-player lobby cannot start gameplay
+PASS: Host / cancelled countdown tears down loaded player scenes
+ROUND PEER RESULT: Host / 40 checks / 0 failures
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / client receives frozen countdown state
+PASS: Client1 / client input and raw fire RPC cannot bypass countdown
+PASS: Client1 / 3/2/1 countdown observed before play
+PASS: Client1 / play waits for host's three-second countdown
+PASS: Client1 / client timer follows host without wall-clock synchronization
+PASS: Client1 / client receives results screen
+PASS: Client1 / every peer receives identical authoritative rankings/results
+PASS: Client1 / non-winner receives match-complete presentation
+PASS: Client1 / results display local player's real statistics
+PASS: Client1 / clients cannot force rematch or results transitions
+PASS: Client1 / results freeze statistics, ammo and movement against late inputs
+PASS: Client1 / client results navigation fits landscape
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / 3/2/1 countdown observed before play
+PASS: Client1 / play waits for host's three-second countdown
+PASS: Client1 / client receives results screen
+PASS: Client1 / every peer receives identical authoritative rankings/results
+PASS: Client1 / non-winner receives match-complete presentation
+PASS: Client1 / results display local player's real statistics
+PASS: Client1 / clients cannot force rematch or results transitions
+PASS: Client1 / results freeze statistics, ammo and movement against late inputs
+PASS: Client1 / client results navigation fits landscape
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / client completed two rounds before cancellation scenario
+PASS: Client1 / leave cleans up peer and returns to main menu
+ROUND PEER RESULT: Client1 / 26 checks / 0 failures
+
+ROUND TEST RESULT: 2 real processes, 66 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-round-njvj_u8u

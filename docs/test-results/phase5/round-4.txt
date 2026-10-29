@@ -1,0 +1,144 @@
+--- Host ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: Host / host UI defaults to five minutes with kill limit off
+PASS: Host / rendered capture host
+PASS: Host / host creates FFA lobby
+PASS: Host / short automated duration is host-configurable
+PASS: Host / host starts ready FFA roster
+PASS: Host / duplicate starts/countdowns rejected
+PASS: Host / movement/fire blocked outside PLAYING
+PASS: Host / rendered capture countdown
+PASS: Host / 3/2/1 countdown observed before play
+PASS: Host / play waits for host's three-second countdown
+PASS: Host / short host timer begins at PLAYING
+PASS: Host / real elimination awards exactly 100 points and rank one
+PASS: Host / death increments once and awards zero points
+PASS: Host / duplicate elimination/notification cannot add score
+PASS: Host / scoreboard is event-driven, not rebuilt each frame
+PASS: Host / rendered capture scoreboard
+PASS: Host / personal pause keeps authoritative match time running
+PASS: Host / rendered capture playing
+PASS: Host / timer reaching zero ends the match
+PASS: Host / configured short round lasts the host's configured duration
+PASS: Host / host winner and victory presentation agree
+PASS: Host / results controls fit landscape viewport
+PASS: Host / movement/fire blocked outside PLAYING
+PASS: Host / rendered capture results
+PASS: Host / duplicate results transition rejected
+PASS: Host / results remain immutable after attempted actions
+PASS: Host / results stay frozen when an operator disconnects
+PASS: Host / completed rankings retain the departed participant
+PASS: Host / host rematch returns the existing session to lobby
+PASS: Host / rematch preserves operator identity/name
+PASS: Host / rematch preserves operator identity/name
+PASS: Host / rematch preserves operator identity/name
+PASS: Host / lobby contains no stale player bodies
+PASS: Host / lobby resets combat/stat/result data
+PASS: Host / rematch resets clients to Not Ready
+PASS: Host / rendered capture rematch-lobby
+PASS: Host / host configures optional kill limit for rematch
+PASS: Host / host starts a new ready round
+PASS: Host / 3/2/1 countdown observed before play
+PASS: Host / play waits for host's three-second countdown
+PASS: Host / rematch has a fresh epoch and no duplicated bodies
+PASS: Host / rematch resets full loadout/health/stats/respawn state
+PASS: Host / rematch resets full loadout/health/stats/respawn state
+PASS: Host / rematch resets full loadout/health/stats/respawn state
+PASS: Host / kill limit ends rematch before time expires
+PASS: Host / new round scoring does not accumulate old-round kills
+PASS: Host / host alone can reopen results lobby
+PASS: Host / countdown cancels to lobby when fewer than two remain
+PASS: Host / cancelled one-player lobby cannot start gameplay
+PASS: Host / cancelled countdown tears down loaded player scenes
+ROUND PEER RESULT: Host / 50 checks / 0 failures
+
+--- Client1 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / client receives frozen countdown state
+PASS: Client1 / client input and raw fire RPC cannot bypass countdown
+PASS: Client1 / 3/2/1 countdown observed before play
+PASS: Client1 / play waits for host's three-second countdown
+PASS: Client1 / client timer follows host without wall-clock synchronization
+PASS: Client1 / client receives results screen
+PASS: Client1 / every peer receives identical authoritative rankings/results
+PASS: Client1 / non-winner receives match-complete presentation
+PASS: Client1 / results display local player's real statistics
+PASS: Client1 / clients cannot force rematch or results transitions
+PASS: Client1 / results freeze statistics, ammo and movement against late inputs
+PASS: Client1 / client results navigation fits landscape
+PASS: Client1 / peer departure cannot change completed results on clients
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / 3/2/1 countdown observed before play
+PASS: Client1 / play waits for host's three-second countdown
+PASS: Client1 / client receives results screen
+PASS: Client1 / every peer receives identical authoritative rankings/results
+PASS: Client1 / non-winner receives match-complete presentation
+PASS: Client1 / results display local player's real statistics
+PASS: Client1 / clients cannot force rematch or results transitions
+PASS: Client1 / results freeze statistics, ammo and movement against late inputs
+PASS: Client1 / client results navigation fits landscape
+PASS: Client1 / client cannot start countdown or configure host rules
+PASS: Client1 / client completed two rounds before cancellation scenario
+PASS: Client1 / leave cleans up peer and returns to main menu
+ROUND PEER RESULT: Client1 / 27 checks / 0 failures
+
+--- Client2 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client2 / client cannot start countdown or configure host rules
+PASS: Client2 / client receives frozen countdown state
+PASS: Client2 / client input and raw fire RPC cannot bypass countdown
+PASS: Client2 / 3/2/1 countdown observed before play
+PASS: Client2 / play waits for host's three-second countdown
+PASS: Client2 / client timer follows host without wall-clock synchronization
+PASS: Client2 / client receives results screen
+PASS: Client2 / every peer receives identical authoritative rankings/results
+PASS: Client2 / non-winner receives match-complete presentation
+PASS: Client2 / results display local player's real statistics
+PASS: Client2 / clients cannot force rematch or results transitions
+PASS: Client2 / results freeze statistics, ammo and movement against late inputs
+PASS: Client2 / client results navigation fits landscape
+PASS: Client2 / peer departure cannot change completed results on clients
+PASS: Client2 / client cannot start countdown or configure host rules
+PASS: Client2 / 3/2/1 countdown observed before play
+PASS: Client2 / play waits for host's three-second countdown
+PASS: Client2 / client receives results screen
+PASS: Client2 / every peer receives identical authoritative rankings/results
+PASS: Client2 / non-winner receives match-complete presentation
+PASS: Client2 / results display local player's real statistics
+PASS: Client2 / clients cannot force rematch or results transitions
+PASS: Client2 / results freeze statistics, ammo and movement against late inputs
+PASS: Client2 / client results navigation fits landscape
+PASS: Client2 / client cannot start countdown or configure host rules
+PASS: Client2 / client completed two rounds before cancellation scenario
+PASS: Client2 / leave cleans up peer and returns to main menu
+ROUND PEER RESULT: Client2 / 27 checks / 0 failures
+
+--- Client3 ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Client3 / client cannot start countdown or configure host rules
+PASS: Client3 / client receives frozen countdown state
+PASS: Client3 / client input and raw fire RPC cannot bypass countdown
+PASS: Client3 / 3/2/1 countdown observed before play
+PASS: Client3 / play waits for host's three-second countdown
+PASS: Client3 / client timer follows host without wall-clock synchronization
+PASS: Client3 / client receives results screen
+PASS: Client3 / every peer receives identical authoritative rankings/results
+PASS: Client3 / non-winner receives match-complete presentation
+PASS: Client3 / results display local player's real statistics
+PASS: Client3 / clients cannot force rematch or results transitions
+PASS: Client3 / results freeze statistics, ammo and movement against late inputs
+PASS: Client3 / client results navigation fits landscape
+PASS: Client3 / participant can leave from results
+PASS: Client3 / leave cleans up peer and returns to main menu
+ROUND PEER RESULT: Client3 / 15 checks / 0 failures
+
+ROUND TEST RESULT: 4 real processes, 119 checks, 0 failures
+Per-process evidence: /tmp/shadowstrike-round-cr2hpj1v

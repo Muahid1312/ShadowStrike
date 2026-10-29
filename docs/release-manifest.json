@@ -1,0 +1,18 @@
+{
+  "name": "ShadowStrike",
+  "version": "0.5.0",
+  "version_code": 5,
+  "package": "com.shadowstrike.training",
+  "protocol": 4,
+  "apk": "builds/ShadowStrike-debug.apk",
+  "bytes": 79686858,
+  "sha256": "a383022d7bcd6b684221188a37b7775307ebe0e696247b00770e90749f605cd8",
+  "abi": [
+    "arm64-v8a"
+  ],
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "renderer": "Mobile/Vulkan",
+  "verdict": "READY FOR TESTING",
+  "physical_android": "NOT VERIFIED"
+}

@@ -1,0 +1,11 @@
+Phase 5 dependency provenance, 2026-10-29
+Godot 4.6.3 standard templates: official godotengine/godot-builds GitHub release.
+Full downloaded TPZ SHA-512 matched official SHA512-SUMS.txt before extracting android_debug.apk, android_release.apk, android_source.zip and version.txt.
+da606b61c10157844f8300172df374472665f95015495cb1a7cd132c40ede404faa96cc1016a4b9662db9909ddea69632c4948b2cd11163438dad4808881fb68  Godot_v4.6.3-stable_export_templates.tpz
+Google Android command-line tools: commandlinetools-linux-16111833_latest.zip
+Published repository-manifest SHA-1 verified: e025545c62a8e64c7559119566a569fb1dec5f60
+SDK packages installed through official SDK manager: platform-tools37.0.1; platform36; build-tools35.0.1,36.0.0,36.1.0; NDK29.0.14206865.
+Full OpenJDK21.0.13+9-1~deb13u2 JDK/JRE packages downloaded with APT from deb.debian.org/debian-security using signed trixie-security metadata and extracted under /workspace/jdk. No global package replacement was required.
+The system's snapshot.debian.org source was unavailable under current egress policy; the already allowed official Debian mirror supplied verified current packages. Network policy was not broadened.
+Gradle8.11.1 and Android Gradle Plugin8.6.1 come from the official matching Godot source template. TLS/proxy trust remained enabled. Template build tools36.1.0/NDK29 match config.gradle.
+No SDK/JDK, dependency archives, build caches, credentials or keystores are included in the project source ZIP.

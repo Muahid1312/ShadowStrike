@@ -1,0 +1,26 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+Unable to open Android 'build-tools' directory.
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+Unable to open Android 'build-tools' directory.
+ERROR: Cannot export project with preset "Android" due to configuration errors:
+No export template found at the expected path:
+/workspace/.shadowstrike-runtime/data/godot/export_templates/4.6.3.stable/android_debug.apk
+No export template found at the expected path:
+/workspace/.shadowstrike-runtime/data/godot/export_templates/4.6.3.stable/android_release.apk
+Invalid Android SDK path in Editor Settings. Missing 'platform-tools' directory!
+Unable to find Android SDK platform-tools' adb command. Please check in the Android SDK directory specified in Editor Settings.
+Invalid Android SDK path in Editor Settings. Missing 'build-tools' directory!
+Unable to find Android SDK build-tools' apksigner command. Please check in the Android SDK directory specified in Editor Settings.
+
+   at: _fs_changed (editor/editor_node.cpp:1332)
+ERROR: Project export for preset "Android" failed.
+   at: _fs_changed (editor/editor_node.cpp:1348)
